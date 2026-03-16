@@ -15,7 +15,7 @@ Why it matters: cultural understanding often depends on relationships, context, 
 
 Status: concept / architecture / early prototype
 
-[Read more](cultural-knowledge-graph.md)
+[Cultural Knowledge Graph](/projects/cultural-knowledge-graph/)
 
 ## Lore RAG System
 
@@ -25,7 +25,7 @@ Why it matters: TODO
 
 Status: TODO
 
-[Read more](lore-rag-system.md)
+[Lore RAG System](/projects/lore-rag-system/)
 
 ## Language Learning Data Tools
 
@@ -35,7 +35,7 @@ Why it matters: TODO
 
 Status: TODO
 
-[Read more](language-learning-data-tools.md)
+[Language Learning Data Tools](/projects/language-learning-data-tools/)
 
 ## Developer Platform Architecture
 
@@ -45,4 +45,4 @@ Why it matters: TODO
 
 Status: TODO
 
-[Read more](developer-platform-architecture.md)
+[Developer Platform Architecture](/projects/developer-platform-architecture/)
