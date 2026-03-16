@@ -26,9 +26,6 @@ Here are a few projects and project areas that reflect my interests in software 
       alt="Lore RAG System"
       class="project-thumb"
     />
-    <div class="project-thumb project-thumb-placeholder">
-      Retrieval pipeline for lore exploration, source grounding, and timeline-aware answers
-    </div>
     <h2><a href="/projects/lore-rag-system/">Lore RAG System</a></h2>
     <p>An experiment in retrieval-augmented generation for exploring deep fictional lore, timelines, and in-universe knowledge.</p>
     <p><strong>Status:</strong> Concept / design / prototype direction</p>
