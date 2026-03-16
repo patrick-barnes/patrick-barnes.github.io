@@ -3,44 +3,58 @@ layout: home
 title: Home
 ---
 
-# Patrick Barnes
-
-Software Architect, Technology Explorer, and Builder of Learning Systems.
-
-I build platforms, prototypes, and knowledge systems that connect technology with learning, culture, and human understanding.
-
-[View Projects](/projects/)  
-[About Me](/about/)  
-[Writing](/writing/)  
-[Research Ideas](/research/)
-
-## What I Do
-
-I explore and build at the intersection of:
-
-- software architecture
-- AI and knowledge systems
-- developer platforms
-- language learning
-- culture, religion, and history
-- interactive storytelling and game systems
+<div class="hero">
+  <p class="hero-kicker">Software Architect • Technology Explorer • Builder of Learning Systems</p>
+  <h1>Patrick Barnes</h1>
+  <p class="hero-lead">
+    I build platforms, prototypes, and knowledge systems that connect software engineering with AI, learning, language, culture, and human understanding.
+  </p>
+  <p class="hero-body">
+    With 25 years in software engineering, I’m especially interested in work that combines technical depth with broad curiosity — from developer platforms and AI knowledge systems to language-learning tools, cultural modeling, and research-oriented prototypes.
+  </p>
+  <p class="hero-actions">
+    <a class="button-link button-link-primary" href="/projects/">View Projects</a>
+    <a class="button-link" href="/about/">About Me</a>
+    <a class="button-link" href="/writing/">Writing</a>
+    <a class="button-link" href="/research/">Research Ideas</a>
+  </p>
+</div>
 
 ## Featured Projects
 
-### Cultural Knowledge Graph
-A prototype for representing beliefs, practices, stories, and traditions as structured knowledge linked to source material.
+<div class="project-grid">
 
-### Lore RAG System
-An experiment in retrieval-augmented generation for deep lore and worldbuilding exploration.
+  <div class="project-card">
+    <h2><a href="/projects/cultural-knowledge-graph/">Cultural Knowledge Graph</a></h2>
+    <p>A prototype for representing beliefs, practices, stories, and traditions as structured knowledge linked to source material.</p>
+    <p class="project-tags">
+      <span>AI</span>
+      <span>Knowledge Graphs</span>
+      <span>Culture</span>
+      <span>Research</span>
+    </p>
+  </div>
 
-### Language Learning Data Tools
-Structured datasets and tools for language study, transliteration, and vocabulary systems.
+  <div class="project-card">
+    <h2><a href="/projects/lore-rag-system/">Lore RAG System</a></h2>
+    <p>An experiment in retrieval-augmented generation for exploring deep fictional lore, timelines, and in-universe knowledge.</p>
+    <p class="project-tags">
+      <span>RAG</span>
+      <span>Lore</span>
+      <span>AI</span>
+      <span>Worldbuilding</span>
+    </p>
+  </div>
 
-## Why This Site Exists
+  <div class="project-card">
+    <h2><a href="/projects/language-learning-data-tools/">Language Learning Data Tools</a></h2>
+    <p>Structured datasets and tools for vocabulary, transliteration, grammar, and flashcard-ready language resources.</p>
+    <p class="project-tags">
+      <span>Languages</span>
+      <span>Data</span>
+      <span>Learning</span>
+      <span>Tools</span>
+    </p>
+  </div>
 
-This portfolio is a home for selected projects, writing, and research ideas that reflect both my engineering depth and my broader intellectual curiosity.
-
-## Links
-
-- [GitHub](https://github.com/patrick-barnes)
-- [LinkedIn](https://linkedin.com/in/pjbarnes)
+</div>
