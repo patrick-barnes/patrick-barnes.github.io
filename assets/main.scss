@@ -3,6 +3,13 @@
 
 @import "minima";
 
+@media (max-width: 600px) {
+  .site-nav .page-link {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+}
+
 /* Overall page feel */
 :root {
   --text: #111318;
@@ -33,6 +40,10 @@ body {
   background: rgba(255, 255, 255, 0.96);
 }
 
+.site-header .wrapper {
+  max-width: 1100px;
+}
+
 .site-title,
 .site-title:visited {
   color: var(--text);
@@ -40,15 +51,38 @@ body {
   letter-spacing: -0.02em;
 }
 
+.site-title:hover {
+  text-decoration: none;
+  color: var(--accent-dark);
+}
+
 .site-nav .page-link {
+  position: relative;
   color: var(--muted-text);
-  margin-left: 18px;
+  margin-left: 22px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .site-nav .page-link:hover {
-  color: var(--accent-dark);
-  text-decoration: none;
+  color: var(--text);
 }
+
+.site-nav .page-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.18s ease;
+}
+
+.site-nav .page-link:hover::after {
+  width: 100%;
+}
+
 
 /* Typography */
 .page-content {
