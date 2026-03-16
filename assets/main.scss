@@ -194,6 +194,7 @@ a:hover {
   text-decoration: none;
   margin-right: 0.75rem;
   margin-bottom: 0.75rem;
+  transition: all 0.15s ease;
 }
 
 .button-link:hover {
@@ -203,13 +204,15 @@ a:hover {
   box-shadow: 0 8px 20px rgba(16, 24, 40, 0.06);
 }
 
-.button-link-primary {
+.button-link-primary,
+.button-link-primary:visited {
   background: var(--text);
   color: #fff;
   border-color: var(--text);
 }
 
-.button-link-primary:hover {
+.button-link-primary:hover,
+.button-link-primary:focus {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
   color: #fff;
