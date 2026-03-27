@@ -103,23 +103,22 @@ Here are a few projects and project areas that reflect my interests in software 
       class="project-thumb"
     />
     <h2>Working Knowledge of Many Languages</h2>
-    <p>Chinese, Arabic, Hindi, Spanish, Japanese...</p>
+    <p>Approximately CEFR A1-level fluency in: Chinese, Arabic, Hindi, Spanish, Cebuano...</p>
+    <p>Name any country in the world, and I can tell you which languages are most spoken in that country, and how they related to other languages around the world.</p>
   </div>
 
 </div>
 
 Other linguistics projects:
 
-- Intervoice: translator solution to migrate IQTalk applications to VXML/SCXML
-- Intervoice: ASR integration, ASR and TTS software with both IQTalk and VXML runtime engines, including speaker identification and verification
-- Intervoice: MRCP server simulator
-- Intervoice: Drove ASR-based testing during VXML Browser development
-- I have developed a RAG GenAI POC.
 - I created an app that extracts English text and Japanese text from Final Fantasy 7 and provides a website that allows users to learn Japanese by exploring this data.
 - I created a web app that parsed a Cebuano dictionary and enables users to search for example words and phrases.
+- Other projects at Intervoice:
+  - translator solution to migrate IQTalk applications to VXML/SCXML
+  - ASR integration, ASR and TTS software with both IQTalk and VXML runtime engines, including speaker identification and verification
+  - MRCP server simulator
+  - Drove ASR-based testing during VXML Browser development
 - As part of my Master's degree course work, I took an NLP course, and my main project in that class performed semantic similarity, and the TA praised my work.
-- I have a working knowledge of many languages, including Arabic, Chinese, Hindi, Spanish, Cebuano, Japanese.
-- I have learned what the most common spoken languages are for every country in the world, and I have determined how they are related by learning about language families/genealogy.
 
 
 ## Storytelling
@@ -141,17 +140,56 @@ Other linguistics projects:
 
 ## Graphics and Gaming
 
-- I developed an app called Kujata that translates Final Fantasy 7 assets to JSON and glTF, and wrote a web app frontend that demonstrates 3D character models and animations. This app is used by an active FF7 community.
-- I developed an app that translates Dark Souls map and character model data and displays 3D scenes on a webpage.
+<div class="project-grid">
+
+  <div class="project-card">
+    <img
+      src="/assets/images/kujata/kujata-logo.png"
+      alt="Kujata Logo"
+      class="project-thumb"
+    />
+    <h2><a href="/projects/kujata/">Kujata, the FF7 Data Explorer</a></h2>
+    <p>Translates Final Fantasy VII game data to web-friendly formats like JSON and glTF,
+    and a frontend to explore the data.</p>
+    <p><strong>Status:</strong> Public and freely accessible</p>
+  </div>
+
+  <div class="project-card">
+    <div class="project-thumb project-thumb-placeholder">
+      Dark Souls Map Explorer
+    </div>
+    <h2>Dark Souls Map Explorer</h2>
+    <p>Draws maps of Dark Souls</p>
+    <p><strong>Status:</strong> Early prototype</p>
+  </div>
+
+</div>
+
+Others:
+
 - As part of my Bachelor's Degree, I took an OpenGL 3D graphics course and did excellent in the class.
 
 
 ## Gaming misc
 
-- I created an app that helps people progress in Dark Souls without giving any spoilers
-  - https://dark-souls-playground.github.io/progression/
-  - Used actively in the Reddit community, has been shared numerous times:
-    - https://www.google.com/search?q=%22dark-souls-playground%22+site%3Areddit.com
+<div class="project-grid">
+
+  <div class="project-card">
+    <img
+      src="/assets/images/dark-souls-progression/dark-souls-progression-2.png"
+      alt="Dark Souls Progression Screenshot"
+      class="project-thumb"
+      style="max-width:320px"
+    />
+    <h2>Dark Souls Progression</h2>
+    <p>Helps Dark Soul players understand what they can do next, <i>without spoiling anything.</i></p>
+    <p><strong>Status:</strong> Public, freely accessible, used by many people in the gaming community:
+      <a href="https://dark-souls-playground.github.io/progression/">website</a> |
+      <a href="https://www.google.com/search?q=%22dark-souls-playground%22+site%3Areddit.com">Reddit usage stories</a>
+    </p>
+  </div>
+
+</div>
 
 
 ## Math
