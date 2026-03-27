@@ -3,6 +3,7 @@ layout: page
 title: Projects
 ---
 
+<!--
 # Projects
 
 Here are a few projects and project areas that reflect my interests in software architecture, AI, knowledge systems, learning, and culture.
@@ -44,12 +45,34 @@ Here are a few projects and project areas that reflect my interests in software 
 
 </div>
 
-
 # Grouped by Topic/Area of Research/Interest
+-->
 
 ## Linguistics and Speech
 
 <div class="project-grid">
+
+  <div class="project-card">
+    <img
+      src="/assets/images/lore-rag-system.v1.jpg"
+      alt="Lore RAG System"
+      class="project-thumb"
+    />
+    <h2><a href="/projects/lore-rag-system/">Lore RAG System</a></h2>
+    <p>An experiment in retrieval-augmented generation for exploring deep fictional lore, timelines, and in-universe knowledge.</p>
+    <p><strong>Status:</strong> Public proof of concept</p>
+  </div>
+
+  <div class="project-card">
+    <img
+      src="/assets/images/duolingo-data-extractor/duolingo-data-extractor.png"
+      alt="DuoLingo Data Extractor"
+      class="project-thumb"
+    />
+    <h2><a href="/projects/duolingo-data-extractor">DuoLingo Data Extractor</a></h2>
+    <p>Extract language data from DuoLingo and make Anki flashcards.</p>
+    <p><strong>Status:</strong> Public</p>
+  </div>
 
   <div class="project-card">
     <img
@@ -59,18 +82,7 @@ Here are a few projects and project areas that reflect my interests in software 
     />
     <h2><a href="/projects/speech-recognition-tuning-tool">Speech Recognition Tuning Tool</a></h2>
     <p>For Intervoice, Inc. Developed a tool to make IVRs better at understanding human speech. Used by Professional Services for a wide variety of industries.</p>
-    <p><strong>Status:</strong> Professional</p>
-  </div>
-
-  <div class="project-card">
-    <img
-      src="/assets/images/language-learning-data-tools.v1.webp"
-      alt="Language Learning Data Tools"
-      class="project-thumb"
-    />
-    <h2><a href="/projects/duolingo-data-extractor">DuoLingo Data Extractor</a></h2>
-    <p>Extract language data from DuoLingo and make Anki flashcards.</p>
-    <p><strong>Status:</strong> Public</p>
+    <p><strong>Status:</strong> Used by industry professionals</p>
   </div>
 
   <div class="project-card">
@@ -82,6 +94,16 @@ Here are a few projects and project areas that reflect my interests in software 
     <h2><a href="/projects/zork-explorer-using-zil-parser">Zork Explorer using ZIL Parser</a></h2>
     <p>Web app to explore how games like Zork work, using ZIL language parser.</p>
     <p><strong>Status:</strong> Public</p>
+  </div>
+
+  <div class="project-card">
+    <img
+      src="/assets/images/language-learning-data-tools.v1.webp"
+      alt="Working Knowledge of Many Languages"
+      class="project-thumb"
+    />
+    <h2>Working Knowledge of Many Languages</h2>
+    <p>Chinese, Arabic, Hindi, Spanish, Japanese...</p>
   </div>
 
 </div>
@@ -104,6 +126,7 @@ Other linguistics projects:
 
 - I created a web app that parsed lore data from the Elden Ring game and allows users to search.
 - I'm in the process of expanding my RAG POC to fetch lore data from fandom.com and allow users to ask questions about lore for a particular fantasy universe, like Lord of the Rings.
+- I created an app that 
 
 
 
@@ -116,11 +139,19 @@ Other linguistics projects:
 - I've played trumpet: at school, in the church orchestra, and for a Texas A&M "roll call" event where alumni honor the deceased and I played Taps.
 
 
-## Graphics
+## Graphics and Gaming
 
 - I developed an app called Kujata that translates Final Fantasy 7 assets to JSON and glTF, and wrote a web app frontend that demonstrates 3D character models and animations. This app is used by an active FF7 community.
 - I developed an app that translates Dark Souls map and character model data and displays 3D scenes on a webpage.
 - As part of my Bachelor's Degree, I took an OpenGL 3D graphics course and did excellent in the class.
+
+
+## Gaming misc
+
+- I created an app that helps people progress in Dark Souls without giving any spoilers
+  - https://dark-souls-playground.github.io/progression/
+  - Used actively in the Reddit community, has been shared numerous times:
+    - https://www.google.com/search?q=%22dark-souls-playground%22+site%3Areddit.com
 
 
 ## Math

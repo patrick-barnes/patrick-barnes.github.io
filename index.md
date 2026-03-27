@@ -13,13 +13,16 @@ title: Home
     With 25 years in software engineering, I’m especially interested in work that combines technical depth with broad curiosity — from developer platforms and AI knowledge systems to language-learning tools, cultural modeling, and research-oriented prototypes.
   </p>
   <p class="hero-actions">
-    <a class="button-link button-link-primary" href="/projects/">View Projects</a>
+    <a class="button-link button-link-primary" href="/projects/">Browse All My Projects</a>
+    <!--
     <a class="button-link" href="/about/">About Me</a>
     <a class="button-link" href="/writing/">Writing</a>
     <a class="button-link" href="/research/">Research Ideas</a>
+    -->
   </p>
 </div>
 
+<!--
 ## Featured Projects
 
 <div class="project-grid">
@@ -73,3 +76,4 @@ title: Home
   </div>
 
 </div>
+-->

@@ -167,6 +167,7 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.25rem;
   margin-top: 1.5rem;
+  margin-bottom: 2.0rem;
 }
 
 /* Cards */
@@ -272,15 +273,15 @@ a:hover {
 
 .button-link-primary,
 .button-link-primary:visited {
-  background: var(--text);
+  background: var(--accent-dark);
   color: #fff;
   border-color: var(--text);
 }
 
 .button-link-primary:hover,
 .button-link-primary:focus {
-  background: var(--accent-dark);
-  border-color: var(--accent-dark);
+  background: var(--accent);
+  border-color: var(--accent);
   color: #fff;
 }
 
